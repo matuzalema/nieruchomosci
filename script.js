@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
- //Walidacja nazwy
+ //Walidacja nazwy imie i nazwisko
  $('#imie_nazwisko').on('blur', function() {
  var input = $(this);
  var name_length = input.val().length;
