@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+@media(min-width:1200px){
+	html{
+    	font-size:60%;
+        line-height:1.2rem;
+    }
+	
+}
+    
+@media(min-width:992px)and(max-width:1199px){
+	html{
+    	font-size:50%;
+        line-height:1.2rem;
+    }
+	.carousel-caption {
+	top: 330px;
+	}
+	
+	
+}
+@media(min-width:768px) and (max-width:991px){
+	html{
+    	font-size:40%;
+        line-height:1.2rem;
+    }
+	.carousel-caption {
+	top: 250px;
+}
+#menu{
+	max-height:10rem;
+	}
+	iframe.img-rounded{
+		height:45rem;
+		width:45rem;
+	}
+
+}
+@media(max-width:767px){
+	
+	.carousel-caption {
+	top: 140px;
+}
+.carousel .item img{
+	margin-top:7rem;
+}
+	.carousel-caption h1,
+    .carousel-caption h2,
+    .carousel-caption p{
+    	font-size:2rem;
+        line-height:1.2rem;
+	}
+	h2{
+		font-size:3rem;
+		line-height:3rem;
+	}
+	.block{
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+	iframe.img-rounded{
+		height:28rem;
+		width:28rem;
+	}
+	
+	@media(max-width:480px){
+	
+	.carousel-caption{
+		top:50px;
+		padding-top:1rem;
+	}
+	.carousel-caption h1,
+    .carousel-caption h2,
+    .carousel-caption p{
+    	font-size:1rem;
+        line-height:0rem;
+	}
+	h2{
+		font-size:2.5rem;
+		line-height:2.5rem;
+	}
+	#apartamenty{
+		padding-top:1rem;
+	}
+	.galeria_naglowek{
+		padding-top:0rem;
+	}
+	#galeria_luna h3{
+		text-align:center;
+	}
+	#galeria_ostoja h3{
+		text-align:center;
+	}
+	#galeria_house h3{
+		text-align:center;
+	}
+	.cennik_pasek{
+	padding-bottom:2rem;
+	}
+	#lokalizacja{
+	padding-top: 1rem;
+	}
+	#kontakt{
+	padding-top:1rem;
+	}
+	iframe.img-rounded{
+		height:25rem;
+		width:25rem;
+	}
+	}
+
+

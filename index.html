@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Luna</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- pliki CSS: -->
+    <!-- oryginalny Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/wlasny.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+	<link href="css/lightbox.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="css/responsive.css" rel="stylesheet" media="screen">
+   <!-- czcionki-->
+   <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   
+
+  </head>
+  
+  <body>
+
+    <!--###############################-->
+    <!-- MENU GÓRNE ###################-->
+    <!--###############################-->
+  	<header id="menu" class="navbar-fixed-top">
+    	<div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            	<nav class="navbar navbar-inverse" role="navigation" id="pasek_nawi">
+                	<div  class="container-fluid">
+                    	<div class="navbar-header">
+                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#moje-menu">
+                            	<span class="sr-only">Nawigacja</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div id="logo">
+                            	<a class="navbar-brand"><img src="" class="img-responsive" alt=""/>	</a>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse" id="moje-menu">
+                        	<ul class="nav navbar-nav navbar-right" id="ul_nawigacja">
+                            	<li class="active"><a href="#">Home</a></li>
+                                <li><a href="#apartamenty">Apartamenty</a></li>
+                                <li><a href="#galeria">Galeria</a></li>
+                                <li><a href="#cennik">Cennik</a></li>
+                                <li><a href="#lokalizacja">Lokalizacja</a></li>
+                                 <li><a href="#regulamin">Regulamin</a></li>
+                                <li><a href="#kontakt">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--###############################-->
+    <!--Carousel ######################-->
+    <!--###############################-->
+	<div id="pokaz-slajdow" class="carousel slide" data-ride="carousel">
+    	<ol class="carousel-indicators">
+        	<li data-target="#pokaz-slajdow" data-slide-to="0" class="active"></li>
+            <li data-target="#pokaz-slajdow" data-slide-to="1"></li>
+            <li data-target="#pokaz-slajdow" data-slide-to="2"></li>
+            <li data-target="#pokaz-slajdow" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                    <img src="images/carousel/luna1.jpg" alt="" class="img-responsive">
+                    <div class="carousel-caption">
+                    <h1>Wynajem apartamentów<br /></h1>
+                    <h2>Katowice</h2><br />
+                    <p>Zadzwoń już teraz! 500-234-321</p>
+                    </div>
+            </div>
+        	<div class="item">
+            	<img src="images/carousel/luna6.jpg" alt="" class="img-responsive">
+            	<div class="carousel-caption">
+            		<h1>Wynajem apartamentów<br /></h1>
+                	<h2>Katowice</h2><br />
+                	<p>Zadzwoń już teraz! 500-234-321</p>
+            	</div>
+            </div>
+             <div class="item">
+            	<img src="images/carousel/luna8.jpg" alt="" class="img-responsive">
+            	<div class="carousel-caption">
+            		<h1>Wynajem apartamentów<br /></h1>
+                	<h2>Katowice</h2><br />
+                	<p>Zadzwoń już teraz! 500-234-321</p>
+            	</div>
+        	</div>
+            <div class="item">
+            	<img src="images/carousel/luna9.jpg" alt="" class="img-responsive">
+            	<div class="carousel-caption">
+            		<h1>Wynajem apartamentów<br /></h1>
+                	<h2>Katowice</h2><br />
+                	<p>Zadzwoń już teraz! 500-234-321</p>
+            	</div>
+        	</div>
+    	</div>
+     </div>
+    	
+    
+    <!--###############################-->
+    <!--Apartamenty ###################-->
+    <!--###############################-->
+ 	<section id="apartamenty">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 com-md-12 col-lg-12 apartamenty_naglowek">
+                <h2>Apartamenty</h2>
+                <h4>Exclusive</h4>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper volutpat nisi. Sed ut tellus scelerisque, porttitor odio eget, semper erat. Sed in nulla ultrices, dapibus felis sed, efficitur sem. Aenean cursus sapien eget dapibus vestibulum. </h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 com-md-12 col-lg-12">
+                	<ul class="nav nav-pills apartamenty_przyciski">
+                    	<li class="active"><a href="#zakladka_luna" data-toggle="tab">Apartament Luna</a></li>
+                        <li><a href="#zakladka_ostoja" data-toggle="tab">Apartament Ostoja</a></li>
+                        <li><a href="#zakladka_house" data-toggle="tab">Apartament House</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-12 col-sm-12 com-md-12 col-lg-12">
+                	<div class="tab-content">
+                    	<div class="tab-pane fade in active" id="zakladka_luna">
+                        	<div class="row">
+            					<div class="col-xs-12 col-sm-5 com-md-5 col-lg-6 apartamenty_zdjecia">
+                                	<img src="images/luna01min.JPG" alt="" class="img-responsive img-rounded" pull left>
+                                </div>
+                                <div class="col-xs-12 col-sm-7 com-md-7 col-lg-6 apartamenty_opis">
+                                	<h3>Apartament Luna</h3>
+                                    <hr>
+                                    <h5>W śródmieściu Katowic - kilka minut od dworca głównego PKP 5 min piechotą, oraz rynku, niedaleko spodka czy lotniska Muchowiec znajduje się przepiękna klimatyczna odrestaurowana kamienica.
+W srodmiesciu obowiazuje platna strefa parkowania jednak dla gości apartamentu oferujemy darmową kopertę postojową. Niedaleko również znajduje się parking strzeżony.
+
+W skład apartamentu wchodzą: przestronny salon z TV, sypialnia z tv, kuchnia, łazienka oraz toaleta osobno (całość 70 m).</h5>
+
+
+<h5>ISTNIEJE MOZLIWOSC ODEBRANIA GOSCI I ODWIEZIENIA ORAZ MOŻLIWOŚĆ WYPOŻYCZENIA SAMOCHODU</h5>
+                 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="zakladka_ostoja">
+                        	<div class="row">
+            					<div class="col-xs-12 col-sm-5 com-md-5 col-lg-6 apartamenty_zdjecia">
+                                	<img src="images/ostoja3.jpg" alt="" class="img-responsive img-rounded" pull left>
+                                </div>
+                                <div class="col-xs-12 col-sm-7 com-md-7 col-lg-6">
+                                	<h3>Apartament Ostoja</h3>
+                                    <hr>
+                                    <h5> Zapraszamy do przytulnego bardzo klimatycznego apartamentu OSTOJA mieszczącego sie w Czeladzi centrum ok 7 km od Katowic. Na spokojnym ladnym osiedlu w bloku z monitoringiem , windą i wieloma miejscami do parkowania.
+Aparthouse jest w całosci do Panstwa dyspozycji. Aneks kuchenny w pelni wyposażony, łazienka z recznikami i akcesoriami toaletowymi, salonik z miejscem do spania.
+Wystawiamy faktury vat</h5>
+
+                                     <h5>ISTNIEJE MOZLIWOSC ODEBRANIA GOSCI I ODWIEZIENIA ORAZ MOŻLIWOŚĆ WYPOŻYCZENIA SAMOCHODU</h5>
+                                       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="zakladka_house">
+                        	<div class="row">
+            					<div class="col-xs-12 col-sm-5 com-md-5 col-lg-6 apartamenty_zdjecia">
+                                	<img src="images/ostoja3.jpg" alt="" class="img-responsive img-rounded" pull left>
+                                </div>
+                                <div class="col-xs-12 col-sm-7 com-md-7 col-lg-6">
+                                	<h3>Apartament House</h3>
+                                    <hr>
+                                    <h5> Zapraszamy do przytulnego bardzo klimatycznego apartamentu OSTOJA mieszczącego sie w Czeladzi centrum ok 7 km od Katowic. Na spokojnym ladnym osiedlu w bloku z monitoringiem , windą i wieloma miejscami do parkowania.
+Aparthouse jest w całosci do Panstwa dyspozycji. Aneks kuchenny w pelni wyposażony, łazienka z recznikami i akcesoriami toaletowymi, salonik z miejscem do spania.
+Wystawiamy faktury vat</h5>
+
+                                     <h5>ISTNIEJE MOZLIWOSC ODEBRANIA GOSCI I ODWIEZIENIA ORAZ MOŻLIWOŚĆ WYPOŻYCZENIA SAMOCHODU</h5>
+                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--###############################-->
+    <!--UDOGODNIENIA#########################-->
+    <!--###############################-->             	   
+    </section>
+    <section id="udogodnienia">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 udogodnienia_naglowek">       
+                    <h2>Udogodnienia</h2>
+                    <h4>Exclusive</h4>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper volutpat nisi. Sed ut tellus scelerisque, porttitor odio eget, semper erat. Sed in nulla ultrices, dapibus felis sed, efficitur sem. Aenean cursus sapien eget dapibus vestibulum.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 udogodnienia_foto">  
+                    <a href="#"><img src="images/udogodnienia/udogodnienia1min.jpg" alt="" class="img-responsive img-circle"></a>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 udogodnienia_foto">  
+                    <a href="#"><img src="images/udogodnienia/udogodnienia2min.jpg" alt="" class="img-responsive img-circle"></a>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 udogodnienia_foto">  
+                    <a href="#"><img src="images/udogodnienia/udogodnienia3min.jpg" alt="" class="img-responsive img-circle "></a>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 udogodnienia_foto">  
+                    <a href="#"><img src="images/udogodnienia/udogodnienia7min.jpg" alt="" class="img-responsive img-circle"></a>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                 
+                
+                </div>                                
+            </div>
+        </div>                    
+    </section>
+<!--###############################-->
+    <!--Galeria#########################-->
+    <!--###############################-->
+    <section id="galeria">
+ 
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 galeria_naglowek">
+                	<h2> Galeria</h2>
+                    <h4> Exclusive</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 com-md-12 col-lg-12">
+                	<ul class="nav nav-pills apartamenty_przyciski">
+                    	<li class="active"><a href="#galeria_luna" data-toggle="tab">Apartament Luna</a></li>
+                        <li><a href="#galeria_ostoja" data-toggle="tab">Apartament Ostoja</a></li>
+                        <li><a href="#galeria_house" data-toggle="tab">Apartament House</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+        		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            		<div class="tab-content galeria_apartamenty">
+                		<div class="tab-pane fade in active" id="galeria_luna">
+                              <h3> Apartament Luna</h3>
+                              <div class="row">
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria1.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria1min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria2.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria2min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria3.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria3min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria4.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria4min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria5.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria5min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria6.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria6min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria7.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria7min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria8.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria8min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria9.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria9min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria10.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria10min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria11.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria11min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria12.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria12min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                              </div>                       
+                        </div>
+                       	<div class="tab-pane fade in" id="galeria_ostoja">
+                              <h3> Apartament Ostoja</h3>
+                              <div class="row">
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria13.jpg" rel="galeria1">
+                                      <img src="images/galeria/galeria13min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria14.jpg" rel="galeria1">
+                                      <img src="images/galeria/galeria14min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria3.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria3min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria4.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria4min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria5.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria5min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria6.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria6min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria7.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria7min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria8.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria8min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria9.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria9min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria10.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria10min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria11.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria11min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria12.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria12min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                             </div>                          
+                         </div>
+                         <div class="tab-pane fade in" id="galeria_house">
+                              <h3> Apartament House</h3>
+                              <div class="row">
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria1.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria1min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria2.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria2min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria3.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria3min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria4.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria4min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria5.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria5min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria6.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria6min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria7.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria7min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria8.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria8min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria9.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria9min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria10.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria10min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria11.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria11min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 main">
+                                      <a href="images/galeria/galeria12.jpg" rel="galeria">
+                                      <img src="images/galeria/galeria12min.jpg" class="img-thumbnail img-rounded img-responsive">
+                                      </a>
+                                  </div>
+                              </div>
+                       	</div> 
+                    </div>
+                </div>
+            </div>
+    	</div>  
+    </section>
+     <!--###############################-->
+    <!--Cennik ##############-->
+    <!--###############################-->
+   	<section id="cennik">
+        <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 galeria_naglowek">
+                        <h2> Cennik</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper volutpat nisi. Sed ut tellus scelerisque, porttitor odio eget, semper erat. Sed in nulla ultrices, dapibus felis sed, efficitur sem. Aenean cursus sapien eget dapibus vestibulum.</h5>
+                    </div>
+                </div>
+            </div>
+         
+    	<div class="container">
+        	<div class="row">
+            	<div class="cennik_pasek">
+                	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 cennik_kafelek">
+                		<h3>Apartament</h3>
+                		<h3>Luna </h3>
+                        <h3>Katowice</h3>
+                		<h5>130 pln-doba</h5>
+                	</div>
+                	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 cennik_kafelek">
+                		<h3>Apartament</h3>
+                		<h3>Ostoja</h3>
+                        <h3>Czeladź</h3>
+                		<h5>120 pln/doba</h5>
+                	</div>
+                	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 cennik_kafelek">
+               			<h3>Apartament</h3>
+                		<h3>Przystań</h3>
+                        <h3>Będzin</h3>
+                		<h5>120 pln/doba</h5>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5><div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper volutpat nisi. Sed ut tellus scelerisque, porttitor odio eget, semper erat. Sed in nulla ultrices, dapibus felis sed, efficitur sem. Aenean cursus sapien eget dapibus vestibulum. Donec accumsan leo tellus. Donec sed semper metus. Nulla sed diam mollis, porta augue vel, consequat eros. Suspendisse vitae augue sapien. Aenean sit amet felis nec ex maximus fermentum non quis arcu. Nulla blandit eleifend dignissim. Pellentesque varius aliquam neque. Vestibulum sed nisi id sem vestibulum luctus. Sed placerat aliquet odio et ornare. Aenean pellentesque tellus erat, in blandit diam fermentum id. Proin eget est convallis, semper libero eget, porta libero. Curabitur placerat hendrerit nunc in ornare. Cras sed sapien sed augue euismod convallis. Sed et dapibus ex, a feugiat libero. Integer quis luctus magna. Mauris eu euismod tellus. </h5>
+                    </div>
+                </div>
+            </div></h5>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+
+    <!--###############################-->
+    <!--Lokalozacja#########################-->
+    <!--###############################-->
+    <section id="lokalizacja">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                 <h2>Lokalizacja</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mapa">
+                        <h4>Apartament Luna</h4>
+                        <h5>Katowice</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.018786818022!2d19.01812021571169!3d50.25423340936484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce48db5e67c7%3A0xabf0fac99ddd8e08!2sJagiello%C5%84ska+7%2C+Katowice!5e0!3m2!1spl!2spl!4v1458356639877" width="400" height="300" frameborder="0" class="img-rounded"style="border:0" allowfullscreen ></iframe>
+                        
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mapa">
+                        <h4>Apartament Luna</h4>
+                        <h5>Katowice</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.018786818022!2d19.01812021571169!3d50.25423340936484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce48db5e67c7%3A0xabf0fac99ddd8e08!2sJagiello%C5%84ska+7%2C+Katowice!5e0!3m2!1spl!2spl!4v1458356639877" width="400" height="300" frameborder="0" class="img-rounded"style="border:0" allowfullscreen ></iframe>
+               </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mapa">
+                     <h4>Apartament Ostoja</h4>
+                        <h5> Czeladź</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8630942276213!2d19.125083215712863!3d50.29448340647169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da82da8e06c3%3A0xd613b374feee0466!2sCzeladzka%2C+Sosnowiec!5e0!3m2!1spl!2spl!4v1458357051643" width="400" height="300" frameborder="0" class="img-rounded" style="border:0" allowfullscreen></iframe>
+               </div>  
+        	</div>
+    	</div>
+	</section>
+   
+     <!--###############################-->
+    <!--Regulamin #####################-->
+    <!--###############################-->
+    <section id="regulamin">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 regulamin_naglowek">
+                <h2>Regulamin</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        	<div class="row">
+            	<div class="regulamin_zawartosc">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="images/regulamin.jpg" alt="" class="img-responsive img-rounded"> 
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <hr>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper volutpat nisi. Sed ut tellus scelerisque, porttitor odio eget, semper erat. Sed in nulla ultrices, dapibus felis sed, efficitur sem. Aenean cursus sapien eget dapibus vestibulum. Quisque scelerisque purus nec ipsum molestie, non egestas mauris ornare. Duis nec nisi non enim commodo eleifend. Curabitur hendrerit eu massa nec pulvinar. Integer purus magna, blandit sed eros eget, iaculis rhoncus tellus. Donec bibendum dolor non nibh vestibulum aliquet. Mauris quam mi, vehicula ut tincidunt in, ornare et nunc. Proin eu aliquam nulla.</h5>
+                    </div>
+                </div>
+          	</div>
+        </div>
+    </section>
+   
+    <!--###############################-->
+    <!--KONTAKT #######################-->
+    <!--###############################-->
+	<section id="kontakt">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 kontakt_left">
+                <h2>Kontakt</h2>
+            
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna massa, viverra a imperdiet a, condimentum ut ligula. Suspendisse placerat felis lectus, ac ullamcorper risus efficitur et. Mauris in urna sed dui tempor ultricies cursus ut enim. Etiam vel dictum est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna massa, viverra a imperdiet a, condimentum ut ligula. Suspendisse placerat felis lectus, ac ullamcorper risus efficitur et. Mauris in urna sed dui tempor ultricies cursus ut enim.</h5>
+                <h5>Skontaktuj się z nami</h5>
+                <h3>500-234-321</h3>
+                <h4>apartamenty@gmail.com</h4>
+                </div>
+            
+            	<div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 kontakt_right">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="uzytkownik" class="control-label" >Imię i nazwisko:</label>
+                            <input type="text" class="form-control" id="imie_nazwisko" name="uzytkownik" placeholder="Imię i nazwisko">
+                            <span class="komunikat"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="control-label">E-mail:</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="adres email: jan.nowak@gmail.com">
+                            <span class="komunikat"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="rezerwacja" class="control-label">Rezerwacja</label>
+                            <textarea class="form-control" id="rezerwacja_pole" name="rezerwacja" placeholder="Tekst" rows="8" title="Wysyłając formularz rezerwacji otrzymacie Państwo odpowiedź najszybciej jak to możliwe." data-toggle="tooltip" data-placement="right"></textarea>
+                            <span class="komunikat"></span>
+                            </div>
+                            <div class="form-group">
+                            <button type="submit" id="submit_button" class="btn btn-success bt-lg">Wyślij</button>
+                        </div>
+           		     </form>
+           		</div>
+           </div>
+        </div>
+    </section>
+
+    <!--###############################-->
+    <!--STOPKA ########################-->
+    <!--###############################-->
+    <section id="stopka">
+    	<div class="container">
+        	<footer class="row">
+            	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h5>Copyright 2016 &copy jadwiga.bochinska@gmail.com</h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 stopka_ikony">
+                   <a href="https://plus.google.com"><img src="icons/googleplus.png" alt="" class="img-responsive"></a>
+                   <a href="https://twitter.com"><img src="icons/twitter.png" alt="" class="img-responsive"></a>
+                   <a href="https://www.facebook.com"><img src="icons/facebook.png" alt="" class="img-responsive"></a>
+                   <a href="https://vimeo.com"><img src="icons/vimeo.png" alt="" class="img-responsive"></a>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+<!--teksty do wyswietlenia dla okien modalnych-->
+<!-- Modal -->
+<div class="modal fade" id="oferta1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>					</button>
+        <h3 class="modal-title" id="myModalLabel">Apartament Luna</h3>
+      </div>
+      <div class="modal-body">
+      <img src="images/kursy/kurs_1.jpg">
+      <p> W śródmieściu Katowic - kilka minut od dworca głównego PKP 5 min piechotą, oraz rynku, niedaleko spodka czy lotniska Muchowiec znajduje się przepiękna klimatyczna odrestaurowana kamienica.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+       
+    <!-- sekcja JavaScript  -->
+    
+	<script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script src="js/wlasny.js"></script>
+ 	<script type="text/javascript" src="jquery.lightbox.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+   
+    <script>
+	$("textarea").tooltip();
+    </script>
+    
+  </body>
+</html>

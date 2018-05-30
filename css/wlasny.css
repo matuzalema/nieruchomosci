@@ -1,0 +1,373 @@
+/*#####################################################################################################################*/
+/* ------------------------------------------- Własny CSS -------------------------------------------------------------*/ 
+/*#####################################################################################################################*/
+
+/*#####################################################################################################################*/
+/* Główne*/
+/*#####################################################################################################################*/
+body{
+	font-family: 'Lato', sans-serif;
+	color:#34495e;
+	background-color:#ffffff;
+}
+
+/*#####################################################################################################################*/
+/* Typografia */
+/*#####################################################################################################################*/
+h1, h2, h3, h4, h5, h6{
+	color:#5c6166;
+	font-weight:300;
+}
+h1{
+	font-size:6rem;
+	color:#FFFFFF;
+}
+h2{
+	font-size:3.5rem;
+	line-height:6rem;
+	font-weight:400;
+	color:#BC0B0E;
+}
+h3{
+	font-size:2.5rem;
+	line-height:3rem;
+	font-weight:400;
+	color:#000000;
+}
+h4{
+	font-size:2.5rem;
+	line-height:3rem;
+	color:#000000;
+}
+h5{
+	font-size:1.5rem;
+	line-height:3rem;
+	color:#000000;
+}
+
+
+
+/*#####################################################################################################################*/
+/* Menu Górne*/
+/*#####################################################################################################################*/
+#menu{
+	background-color:#000000;
+	max-height:8rem;
+}
+.navbar{
+	background-color:#000000;
+	font-size:1.7rem;
+	color:#FFFFFF;
+	padding-top:1.7rem;
+	border-color:#000000;
+}
+.navbar-outer{
+	width:1200px;
+}
+#moje-menu .navbar-nav >li>a{
+	color:#FFFFFF;
+	margin-left:5px;
+	line-height:1rem;
+}
+#moje-menu .navbar-nav >li>a:hover{
+	background-color:#B81013;
+	display:block;
+	line-height:1rem;
+	border-radius:4px;
+}
+#moje-menu .navbar-nav >.active>a{
+	display:block;
+	color:#FFFFFF;
+	line-height:1rem;
+	border-radius:4px;
+	background-color:#000000;
+}
+/*#####################################################################################################################*/
+/* Efekt Carousel pełna szerokośc okna */
+/*#####################################################################################################################*/
+#pokaz-slajdow{
+	padding-top:1rem;
+}
+.carousel .item{
+	width:100%;
+	max-height:660px;
+}
+.carousel .item img{
+	width:100%;
+	max-height:960px;
+}
+.carousel .carousel-control{
+	background:#E40B0F;
+	border:none;
+	top:50%;
+}
+
+.carousel-caption {
+	top: 380px;
+	bottom: auto;
+}
+.carousel-caption h1 {
+	font-size:5rem;
+	font-weight: 400;
+	line-height: 5rem;
+	text-shadow:1px 1px #000000;
+}
+.carousel-caption h2 {
+	font-weight: 600;
+	line-height: 5rem;
+	color:#F32427;
+}
+.carousel-caption p {
+	font-size:2rem;
+	font-weight:600;
+	text-shadow:1px 1px #000000;
+}
+/*############################################################################################################*/
+/* Apartamenty*/
+/*#####################################################################################################################*/
+#apartamenty{
+	padding-top:1rem;
+	padding-bottom:0rem;
+	text-align:center;
+}
+.nav-pills{
+	text-align:center;
+	padding-top:0rem;
+}
+
+.nav-pills >li{
+	float:none;
+	padding-left:1rem;
+	display:inline-block;
+	margin-bottom:1.8rem;
+	margin-top:1.8rem;
+}
+.nav-pills >li >a{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.nav-pills >li.active >a{
+	background-color:#B81013;
+}
+.nav-pills >li >a:hover,
+.nav-pills >li.active >a:focus,
+.nav-pills >li >a:hover{
+	background-color:#B81013;
+	line-height:1rem;
+	border-radius:4px;
+	padding:1.5rem;
+	border:1px solid;
+	-webkit-animation:pulse .8s;
+	animation:pulse .8s;
+}
+.apartamenty_opis h5{
+	text-align:center;
+}
+
+.apartamenty_zdjecia img{
+	margin-top:2rem;
+}
+.apartamenty_zdjecia img:hover{
+	-webkit-animation:pulse .9s;
+	animation:pulse .9s;
+}
+#apartamenty hr{
+	background-color:#B81013;
+	height:0.1rem;
+}
+/*#####################################################################################################################*/
+/* Galeira */
+/*#####################################################################################################################*/
+.galeria_naglowek{
+	padding-top:2rem;
+	padding-bottom: 1.5rem;
+	text-align:center;
+}
+.main a img{
+	margin-bottom:2.5rem;
+}
+
+	
+
+/*#####################################################################################################################*/
+/* Udogodnienia */
+/*#####################################################################################################################*/
+#udogodnienia{
+	padding-bottom: 3rem;
+	text-align:center;
+}
+
+
+.udogodnienia_naglowek h5{
+	padding-bottom:3rem;
+}
+
+.udogodnienia_foto{
+	background-color:#FFFFFF;
+	margin:0 auto;
+	display:inline;
+}
+.udogodnienia_foto img{
+	margin:0 auto;
+	display:inline;
+}
+.udogodnienia_foto p{
+	padding-bottom:2rem;
+}
+
+
+.udogodnienia_foto img:hover{
+	-webkit-animation:swing 2s;
+	animation:swing 2s;
+}
+
+
+/*#####################################################################################################################*/
+/* Cennik */
+/*#####################################################################################################################*/
+.cennik_pasek{
+	background-color:#FFFFFF;
+	padding-top: 3rem;
+	padding-bottom:15rem;
+	margin-bottom:2rem;
+	margin-top:2rem;
+	border-bottom:1.5px solid #000000;
+	border-top:1.5px solid #000000;
+}
+
+.cennik_kafelek{
+	background-color:#FFFFFF;
+	text-align: center;
+	padding-top:1rem;
+	margin-left:auto;
+	margin-right:auto
+	width:25rem;
+
+}
+
+.cennik_kafelek h3{
+	font-size:2rem;
+	font-weight:500;
+	color:#B81013;
+	display:inline;
+}
+
+.cennik_kafelek h5{
+	font-size:1.5rem;
+	font-weight:400;
+	line-height:3rem;
+}
+
+.cennik_kafelek h5:hover{
+	-webkit-animation:rotateIn 1.5s;
+	animation:rotateIn 1.5s;
+}
+
+
+#cennik{
+	text-align:center;
+}
+
+/*#####################################################################################################################*/
+/* Lokalizacja */
+/*#####################################################################################################################*/
+#lokalizacja{
+	padding-top: 3rem;
+	text-align:center;
+}
+.mapa iframe{
+	width:30rem;
+	height:30rem;
+	margin:0 auto;
+	display:inline;
+}
+.mapa h4{
+	font-size:2rem;
+	font-weight:500;
+	color:#000000;
+}
+.mapa h5{
+	font-size:1.5rem;
+	font-weight:500;
+	color:#000000
+}
+
+/*#####################################################################################################################*/
+/* Regulamin */
+/*#####################################################################################################################*/
+#regulamin{
+	padding-top: 9rem;
+	text-align:center;
+}
+.regulamin_zawartosc{
+	padding-top:5rem;
+	padding-bottom:5 rem;
+}
+.regulamin_naglowek h4{
+	font-size:2rem;
+	font-weight:200;
+	color:#000000;
+}
+#regulamin hr{
+	background-color:#B81013;
+	height:0.1rem;
+}
+.regulamin_zawartosc img:hover{
+	-webkit-animation:pulse .9s;
+	animation:pulse .9s;
+}
+/*#####################################################################################################################*/
+/* Kontakt */
+/*#####################################################################################################################*/
+#kontakt{
+	padding-top:12rem;
+	padding-bottom:5rem;
+	text-align:center;
+}
+.kontakt_left h4, h3{
+	font-weight:400;
+	font-size:2rem;
+}
+.kontakt_right{
+	padding-top:4rem;
+}
+.btn-success:hover{
+	-webkit-animation:pulse 1s;
+	animation:pulse 1s;
+}
+input.invalid, textarea.invalid{
+    border: 1px solid #B81013;
+}
+ 
+input.valid, textarea.valid{
+    border: 1px solid #028C43;
+}
+.blad {
+ color: #B81013; 
+}
+ 
+.ok {
+ color: #028C43; 
+}
+.komunikat{
+	font-size:10px;
+}
+/*#####################################################################################################################*/
+/* Stopka */
+/*#####################################################################################################################*/
+#stopka{
+	padding-top:2rem;
+	padding-bottom:1rem;
+	text-align:right;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+#stopka h5{
+	color:#FFFFFF;
+}
+#stopka img{
+	margin-right:2rem;
+	display:inline;
+	width:4rem;
+	float:right;
+}
