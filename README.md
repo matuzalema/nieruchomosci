@@ -1,1 +1,1 @@
- https://matuzalema.github.io/nieruchomosci/i
+ https://matuzalema.github.io/nieruchomosci/
